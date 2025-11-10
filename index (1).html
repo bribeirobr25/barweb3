@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professionelle Local SEO Services für Berliner Unternehmen. Verbessern Sie Ihre Sichtbarkeit auf Google Search und Google Maps. Mehr Kunden durch bessere lokale Rankings.">
+    <meta name="keywords" content="Local SEO Berlin, Google Maps Optimierung, lokale Sichtbarkeit, Berliner Unternehmen, Google Business Profile">
+    <meta name="author" content="BarWeb3">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="BarWeb3 - Local SEO Services für Berliner Unternehmen">
+    <meta property="og:description" content="Wir helfen Berliner Unternehmen, in Google Search und Maps besser gefunden zu werden.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://barweb3.xyz">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔍%3C/text%3E%3C/svg%3E">
+    
+    <title>BarWeb3 - Local SEO Services für Berliner Unternehmen</title>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        /* ===================================
+           CSS CUSTOM PROPERTIES
+           Complete design system with scales
+           =================================== */
+        :root {
+            /* Primary Color Palette */
+            --color-primary-50: #eff6ff;
+            --color-primary-100: #dbeafe;
+            --color-primary-200: #bfdbfe;
+            --color-primary-300: #93c5fd;
+            --color-primary-400: #60a5fa;
+            --color-primary-500: #3b82f6;
+            --color-primary-600: #2563eb;
+            --color-primary-700: #1d4ed8;
+            --color-primary-800: #1e40af;
+            --color-primary-900: #1e3a8a;
+            
+            /* Secondary Color Palette */
+            --color-secondary-50: #ecfdf5;
+            --color-secondary-100: #d1fae5;
+            --color-secondary-200: #a7f3d0;
+            --color-secondary-300: #6ee7b7;
+            --color-secondary-400: #34d399;
+            --color-secondary-500: #10b981;
+            --color-secondary-600: #059669;
+            --color-secondary-700: #047857;
+            --color-secondary-800: #065f46;
+            --color-secondary-900: #064e3b;
+            
+            /* Neutral Grays */
+            --color-gray-50: #f9fafb;
+            --color-gray-100: #f3f4f6;
+            --color-gray-200: #e5e7eb;
+            --color-gray-300: #d1d5db;
+            --color-gray-400: #9ca3af;
+            --color-gray-500: #6b7280;
+            --color-gray-600: #4b5563;
+            --color-gray-700: #374151;
+            --color-gray-800: #1f2937;
+            --color-gray-900: #111827;
+            
+            /* Semantic Colors */
+            --color-white: #ffffff;
+            --color-black: #000000;
+            --color-error: #ef4444;
+            --color-success: #10b981;
+            --color-warning: #f59e0b;
+            --color-info: #3b82f6;
+            
+            /* Typography Scale */
+            --font-size-xs: 0.75rem;      /* 12px */
+            --font-size-sm: 0.875rem;     /* 14px */
+            --font-size-base: 1rem;       /* 16px */
+            --font-size-lg: 1.125rem;     /* 18px */
+            --font-size-xl: 1.25rem;      /* 20px */
+            --font-size-2xl: 1.5rem;      /* 24px */
+            --font-size-3xl: 1.875rem;    /* 30px */
+            --font-size-4xl: 2.25rem;     /* 36px */
+            --font-size-5xl: 3rem;        /* 48px */
+            --font-size-6xl: 3.75rem;     /* 60px */
+            
+            /* Font Weights */
+            --font-weight-light: 300;
+            --font-weight-normal: 400;
+            --font-weight-medium: 500;
+            --font-weight-semibold: 600;
+            --font-weight-bold: 700;
+            --font-weight-extrabold: 800;
+            --font-weight-black: 900;
+            
+            /* Line Heights */
+            --line-height-none: 1;
+            --line-height-tight: 1.25;
+            --line-height-snug: 1.375;
+            --line-height-normal: 1.5;
+            --line-height-relaxed: 1.625;
+            --line-height-loose: 2;
+            
+            /* Letter Spacing */
+            --letter-spacing-tighter: -0.05em;
+            --letter-spacing-tight: -0.025em;
+            --letter-spacing-normal: 0;
+            --letter-spacing-wide: 0.025em;
+            --letter-spacing-wider: 0.05em;
+            --letter-spacing-widest: 0.1em;
+            
+            /* Spacing Scale (based on 4px grid) */
+            --space-0: 0;
+            --space-1: 0.25rem;    /* 4px */
+            --space-2: 0.5rem;     /* 8px */
+            --space-3: 0.75rem;    /* 12px */
+            --space-4: 1rem;       /* 16px */
+            --space-5: 1.25rem;    /* 20px */
+            --space-6: 1.5rem;     /* 24px */
+            --space-8: 2rem;       /* 32px */
+            --space-10: 2.5rem;    /* 40px */
+            --space-12: 3rem;      /* 48px */
+            --space-16: 4rem;      /* 64px */
+            --space-20: 5rem;      /* 80px */
+            --space-24: 6rem;      /* 96px */
+            --space-32: 8rem;      /* 128px */
+            
+            /* Border Radius */
+            --radius-none: 0;
+            --radius-sm: 0.5rem;     /* 8px */
+            --radius-md: 0.75rem;    /* 12px */
+            --radius-lg: 1rem;       /* 16px */
+            --radius-xl: 1.25rem;    /* 20px */
+            --radius-2xl: 1.5rem;    /* 24px */
+            --radius-full: 9999px;
+            
+            /* Shadows */
+            --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+            --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+            --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            
+            /* Transitions */
+            --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-slower: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+            
+            /* Z-Index Scale */
+            --z-base: 0;
+            --z-dropdown: 1000;
+            --z-sticky: 1020;
+            --z-fixed: 1030;
+            --z-modal-backdrop: 1040;
+            --z-modal: 1050;
+            --z-popover: 1060;
+            --z-tooltip: 1070;
+            
+            /* Container Max Widths */
+            --container-sm: 640px;
+            --container-md: 768px;
+            --container-lg: 1024px;
+            --container-xl: 1280px;
+            --container-2xl: 1536px;
+        }
+        
+        /* ===================================
+           BASE RESET & TYPOGRAPHY
+           =================================== */
+        
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+            font-size: var(--font-size-base);
+            font-weight: var(--font-weight-normal);
+            line-height: var(--line-height-normal);
+            color: var(--color-gray-800);
+            background-color: var(--color-white);
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+        
+        /* Focus Styles for Accessibility */
+        *:focus-visible {
+            outline: 2px solid var(--color-primary-600);
+            outline-offset: 2px;
+            border-radius: var(--radius-sm);
+        }
+        
+        /* Typography Elements */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: var(--font-weight-bold);
+            line-height: var(--line-height-tight);
+            letter-spacing: var(--letter-spacing-tight);
+            color: var(--color-gray-900);
+        }
+        
+        h1 { font-size: var(--font-size-5xl); margin-bottom: var(--space-6); }
+        h2 { font-size: var(--font-size-4xl); margin-bottom: var(--space-5); }
+        h3 { font-size: var(--font-size-2xl); margin-bottom: var(--space-4); }
+        h4 { font-size: var(--font-size-xl); margin-bottom: var(--space-3); }
+        h5 { font-size: var(--font-size-lg); margin-bottom: var(--space-3); }
+        h6 { font-size: var(--font-size-base); margin-bottom: var(--space-2); }
+        
+        p {
+            margin-bottom: var(--space-4);
+            line-height: var(--line-height-relaxed);
+            color: var(--color-gray-600);
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: color var(--transition-fast);
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: var(--radius-md);
+        }
+        
+        button {
+            font-family: inherit;
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        
+        ul, ol {
+            list-style: none;
+        }
+        
+        /* ===================================
+           UTILITY CLASSES
+           =================================== */
+        
+        .container {
+            max-width: var(--container-xl);
+            margin: 0 auto;
+            padding: 0 var(--space-6);
+        }
+        
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+        
+        /* ===================================
+           HEADER & NAVIGATION
+           =================================== */
+        
+        header {
+            background: var(--color-white);
+            box-shadow: var(--shadow-sm);
+            position: sticky;
+            top: 0;
+            z-index: var(--z-sticky);
+            backdrop-filter: blur(8px);
+            background-color: rgba(255, 255, 255, 0.95);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-4) 0;
+        }
+        
+        .logo {
+            font-size: var(--font-size-2xl);
+            font-weight: var(--font-weight-extrabold);
+            color: var(--color-primary-600);
+            letter-spacing: var(--letter-spacing-tight);
+        }
+        
+        .logo:hover {
+            color: var(--color-primary-700);
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: var(--space-8);
+        }
+        
+        .nav-links a {
+            color: var(--color-gray-700);
+            font-weight: var(--font-weight-medium);
+            font-size: var(--font-size-sm);
+            transition: color var(--transition-fast);
+            position: relative;
+        }
+        
+        .nav-links a:hover {
+            color: var(--color-primary-600);
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--color-primary-600);
+            transition: width var(--transition-base);
+        }
+        
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        
+        /* ===================================
+           BUTTONS
+           =================================== */
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-3) var(--space-6);
+            font-size: var(--font-size-base);
+            font-weight: var(--font-weight-semibold);
+            border-radius: var(--radius-lg);
+            transition: all var(--transition-base);
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+        
+        .btn-primary {
+            background: var(--color-primary-600);
+            color: var(--color-white);
+        }
+        
+        .btn-primary:hover {
+            background: var(--color-primary-700);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+        
+        .btn-secondary {
+            background: var(--color-white);
+            color: var(--color-primary-600);
+            border-color: var(--color-primary-600);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--color-primary-50);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        /* ===================================
+           HERO SECTION
+           =================================== */
+        
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--color-white);
+            padding: var(--space-24) 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        .hero .container {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h1 {
+            font-size: var(--font-size-5xl);
+            font-weight: var(--font-weight-extrabold);
+            margin-bottom: var(--space-6);
+            line-height: var(--line-height-tight);
+            letter-spacing: var(--letter-spacing-tighter);
+            color: var(--color-white);
+        }
+        
+        .hero p {
+            font-size: var(--font-size-xl);
+            margin-bottom: var(--space-8);
+            opacity: 0.95;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: var(--line-height-relaxed);
+            color: var(--color-white);
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: var(--space-4);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        /* ===================================
+           SECTIONS
+           =================================== */
+        
+        .section {
+            padding: var(--space-20) 0;
+        }
+        
+        .section-alt {
+            background: var(--color-gray-50);
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: var(--font-size-4xl);
+            font-weight: var(--font-weight-extrabold);
+            margin-bottom: var(--space-4);
+            color: var(--color-gray-900);
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            font-size: var(--font-size-lg);
+            color: var(--color-gray-600);
+            margin-bottom: var(--space-16);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: var(--line-height-relaxed);
+        }
+        
+        /* ===================================
+           CARDS & GRIDS
+           =================================== */
+        
+        .grid {
+            display: grid;
+            gap: var(--space-8);
+        }
+        
+        .grid-3 {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+        
+        .grid-4 {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+        
+        .card {
+            background: var(--color-white);
+            padding: var(--space-8);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--color-gray-100);
+            transition: all var(--transition-base);
+        }
+        
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--color-primary-200);
+        }
+        
+        .card-icon {
+            width: 64px;
+            height: 64px;
+            background: var(--color-primary-600);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: var(--space-6);
+            color: var(--color-white);
+        }
+        
+        .card-icon-alt {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .card h3 {
+            font-size: var(--font-size-xl);
+            font-weight: var(--font-weight-bold);
+            margin-bottom: var(--space-4);
+            color: var(--color-gray-900);
+        }
+        
+        .card p {
+            color: var(--color-gray-600);
+            line-height: var(--line-height-relaxed);
+            margin-bottom: var(--space-4);
+        }
+        
+        .card-list {
+            margin-top: var(--space-4);
+        }
+        
+        .card-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--space-3);
+            padding: var(--space-2) 0;
+            color: var(--color-gray-600);
+        }
+        
+        .card-list li i {
+            color: var(--color-secondary-500);
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        
+        /* ===================================
+           PROCESS STEPS
+           =================================== */
+        
+        .step {
+            text-align: center;
+            background: var(--color-white);
+            padding: var(--space-8);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .step-number {
+            width: 56px;
+            height: 56px;
+            background: var(--color-primary-600);
+            color: var(--color-white);
+            border-radius: var(--radius-full);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: var(--font-size-2xl);
+            font-weight: var(--font-weight-extrabold);
+            margin: 0 auto var(--space-6);
+        }
+        
+        .step h3 {
+            font-size: var(--font-size-xl);
+            margin-bottom: var(--space-4);
+        }
+        
+        .step p {
+            color: var(--color-gray-600);
+            line-height: var(--line-height-relaxed);
+        }
+        
+        /* ===================================
+           CTA SECTION
+           =================================== */
+        
+        .cta-section {
+            padding: var(--space-20) 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--color-white);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-section h2 {
+            font-size: var(--font-size-4xl);
+            margin-bottom: var(--space-4);
+            color: var(--color-white);
+        }
+        
+        .cta-section p {
+            font-size: var(--font-size-xl);
+            margin-bottom: var(--space-8);
+            opacity: 0.95;
+            color: var(--color-white);
+        }
+        
+        .cta-features {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-8);
+            flex-wrap: wrap;
+            margin-bottom: var(--space-8);
+        }
+        
+        .cta-feature {
+            display: flex;
+            align-items: center;
+            gap: var(--space-2);
+            font-size: var(--font-size-base);
+        }
+        
+        /* ===================================
+           FOOTER
+           =================================== */
+        
+        footer {
+            background: var(--color-gray-900);
+            color: var(--color-gray-300);
+            padding: var(--space-16) 0 var(--space-6);
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--space-12);
+            margin-bottom: var(--space-12);
+        }
+        
+        .footer-section h3 {
+            font-size: var(--font-size-lg);
+            font-weight: var(--font-weight-bold);
+            margin-bottom: var(--space-4);
+            color: var(--color-white);
+        }
+        
+        .footer-section ul li {
+            margin-bottom: var(--space-3);
+        }
+        
+        .footer-section a {
+            color: var(--color-gray-400);
+            transition: color var(--transition-fast);
+        }
+        
+        .footer-section a:hover {
+            color: var(--color-white);
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid var(--color-gray-800);
+            padding-top: var(--space-6);
+            text-align: center;
+            color: var(--color-gray-500);
+            font-size: var(--font-size-sm);
+        }
+        
+        /* ===================================
+           MOBILE MENU
+           =================================== */
+        
+        .mobile-menu-toggle {
+            display: none;
+            color: var(--color-gray-700);
+        }
+        
+        /* ===================================
+           RESPONSIVE DESIGN
+           =================================== */
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: var(--font-size-3xl);
+            }
+            
+            .hero p {
+                font-size: var(--font-size-base);
+            }
+            
+            .section-title {
+                font-size: var(--font-size-3xl);
+            }
+            
+            .section {
+                padding: var(--space-16) 0;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .mobile-menu-toggle {
+                display: block;
+            }
+            
+            .grid-3,
+            .grid-4 {
+                grid-template-columns: 1fr;
+            }
+            
+            .cta-features {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .container {
+                padding: 0 var(--space-4);
+            }
+        }
+        
+        /* ===================================
+           PRINT STYLES
+           =================================== */
+        
+        @media print {
+            header,
+            footer,
+            .btn,
+            .hero-buttons {
+                display: none;
+            }
+            
+            body {
+                color: var(--color-black);
+            }
+            
+            .card {
+                box-shadow: none;
+                border: 1px solid var(--color-gray-300);
+            }
+        }
+        
+        /* ===================================
+           ANIMATIONS
+           =================================== */
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-in {
+            animation: fadeIn var(--transition-slow) ease-out;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">BarWeb3</a>
+                <ul class="nav-links">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#process">Prozess</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">
+                    <i data-lucide="calendar"></i>
+                    Kostenlose Analyse
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <i data-lucide="menu"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Mehr lokale Kunden durch bessere Google-Sichtbarkeit</h1>
+            <p>Wir helfen Berliner Unternehmen, in Google Search und Google Maps besser gefunden zu werden – damit mehr Kunden Sie entdecken, wenn sie nach Ihren Leistungen suchen.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <i data-lucide="rocket"></i>
+                    Kostenlose Analyse starten
+                </a>
+                <a href="#process" class="btn btn-secondary">
+                    <i data-lucide="play-circle"></i>
+                    Wie es funktioniert
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Kennen Sie diese Herausforderungen?</h2>
+            <p class="section-subtitle">Viele lokale Unternehmen verlieren täglich potenzielle Kunden, weil sie online nicht gefunden werden.</p>
+            
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-icon card-icon-alt">
+                        <i data-lucide="search-x"></i>
+                    </div>
+                    <h3>Unsichtbar bei Google</h3>
+                    <p>Wenn Kunden nach Ihren Leistungen in Berlin suchen, erscheinen Ihre Konkurrenten zuerst – während Ihr Unternehmen versteckt bleibt.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon card-icon-alt">
+                        <i data-lucide="map-pin-off"></i>
+                    </div>
+                    <h3>Veraltetes Google Business Profil</h3>
+                    <p>Ihr Google Business Eintrag hat wenige Fotos, veraltete Informationen oder erscheint nicht, wenn Kunden in der Nähe suchen.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon card-icon-alt">
+                        <i data-lucide="trending-down"></i>
+                    </div>
+                    <h3>Verlorene Umsätze</h3>
+                    <p>Jeder Kunde, der Ihre Konkurrenz statt Sie findet, ist Geld, das Ihnen durch die Lappen geht.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Unsere Local SEO Services</h2>
+            <p class="section-subtitle">Maßgeschneiderte Lösungen für mehr Sichtbarkeit und mehr Kunden in Berlin</p>
+            
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="map-pin"></i>
+                    </div>
+                    <h3>Google Maps Optimierung</h3>
+                    <p>Wir analysieren genau, wo Ihr Unternehmen erscheint (oder nicht erscheint), wenn Kunden suchen, und beheben die Probleme, die Sie versteckt halten.</p>
+                    <ul class="card-list">
+                        <li><i data-lucide="check"></i> Google Business Profile Optimierung</li>
+                        <li><i data-lucide="check"></i> Lokale Keyword-Analyse</li>
+                        <li><i data-lucide="check"></i> Citations & Verzeichnisse</li>
+                        <li><i data-lucide="check"></i> Review Management</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="file-text"></i>
+                    </div>
+                    <h3>Content Marketing</h3>
+                    <p>Wir erstellen und pflegen Blogs und Website-Inhalte, die die Fragen Ihrer Kunden beantworten und sie zu Ihrem Unternehmen führen.</p>
+                    <ul class="card-list">
+                        <li><i data-lucide="check"></i> SEO-optimierte Blogbeiträge</li>
+                        <li><i data-lucide="check"></i> Lokale Landing Pages</li>
+                        <li><i data-lucide="check"></i> FAQ-Inhalte</li>
+                        <li><i data-lucide="check"></i> Regelmäßige Updates</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="globe"></i>
+                    </div>
+                    <h3>Website Management</h3>
+                    <p>Wir erstellen und pflegen Websites, die Besucher in Kunden verwandeln – alles aktuell und reibungslos funktionierend.</p>
+                    <ul class="card-list">
+                        <li><i data-lucide="check"></i> Mobile-first Design</li>
+                        <li><i data-lucide="check"></i> Schnelle Ladezeiten</li>
+                        <li><i data-lucide="check"></i> Conversion-Optimierung</li>
+                        <li><i data-lucide="check"></i> Wartung & Updates</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">So funktioniert's</h2>
+            <p class="section-subtitle">Transparenter Prozess in vier einfachen Schritten</p>
+            
+            <div class="grid grid-4">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Analyse</h3>
+                    <p>Wir suchen nach Ihrem Unternehmenstyp in Ihrer Gegend und zeigen Ihnen genau, wo Sie im Vergleich zu Konkurrenten erscheinen.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Quick Wins identifizieren</h3>
+                    <p>Wir identifizieren 3-5 schnelle Verbesserungen, die Ihre Sichtbarkeit bei lokalen Kunden sofort erhöhen könnten.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Strategie entwickeln</h3>
+                    <p>Wir erklären, wie die Behebung dieser Probleme mehr Kunden zu Ihrem Unternehmen bringen könnte – ohne aufdringliche Verkaufstaktiken.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Umsetzung & Monitoring</h3>
+                    <p>Nach Ihrer Zustimmung setzen wir die Optimierungen um und überwachen kontinuierlich Ihre Rankings und Performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <h2>Bereit, mehr Kunden zu gewinnen?</h2>
+            <p>Buchen Sie eine kostenlose 15-minütige Analyse. Wir zeigen Ihnen genau, wo Sie bei Google erscheinen und identifizieren Möglichkeiten, wie mehr Kunden Sie finden können.</p>
+            
+            <div class="cta-features">
+                <div class="cta-feature">
+                    <i data-lucide="check-circle"></i>
+                    <span>Keine Verpflichtung</span>
+                </div>
+                <div class="cta-feature">
+                    <i data-lucide="clock"></i>
+                    <span>Nur 15 Minuten</span>
+                </div>
+                <div class="cta-feature">
+                    <i data-lucide="target"></i>
+                    <span>Konkrete Verbesserungsvorschläge</span>
+                </div>
+            </div>
+            
+            <a href="mailto:contact@barweb3.xyz" class="btn" style="background: white; color: var(--color-primary-600); font-weight: var(--font-weight-bold);">
+                <i data-lucide="mail"></i>
+                Jetzt kostenlose Analyse anfragen
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BarWeb3</h3>
+                    <p>Local SEO Services für Berliner Unternehmen. Mehr Sichtbarkeit. Mehr Kunden.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Google Maps Optimierung</a></li>
+                        <li><a href="#services">Content Marketing</a></li>
+                        <li><a href="#services">Website Management</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Unternehmen</h3>
+                    <ul>
+                        <li><a href="#process">Wie es funktioniert</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                        <li><a href="#">Datenschutz</a></li>
+                        <li><a href="#">Impressum</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Kontakt</h3>
+                    <ul>
+                        <li><a href="mailto:contact@barweb3.xyz">contact@barweb3.xyz</a></li>
+                        <li>Berlin, Deutschland</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 BarWeb3. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
